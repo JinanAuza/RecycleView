@@ -26,11 +26,11 @@ public class MainActivity extends AppCompatActivity {
 
         // Membuat daftar mahasiswa dengan nilai hardcoded
         studentList = new ArrayList<>();
-        studentList.add(new Student("12345", "Alice", "alice@example.com", "01/01/2000"));
-        studentList.add(new Student("12346", "Bob", "bob@example.com", "02/02/2001"));
-        studentList.add(new Student("12347", "Charlie", "charlie@example.com", "03/03/2002"));
-        studentList.add(new Student("12348", "David", "david@example.com", "04/04/2003"));
-        studentList.add(new Student("12349", "Eve", "eve@example.com", "05/05/2004"));
+        studentList.add(new Student("12345", "Asep", "asep@example.com", "01/01/2000"));
+        studentList.add(new Student("12346", "Boby", "boby@example.com", "02/02/2001"));
+        studentList.add(new Student("12347", "Caca", "caca@example.com", "03/03/2002"));
+        studentList.add(new Student("12348", "Dapa", "dapa@example.com", "04/04/2003"));
+        studentList.add(new Student("12349", "Eca", "eca@example.com", "05/05/2004"));
 
         studentAdapter = new StudentAdapter(studentList);
         recyclerView.setAdapter(studentAdapter);
